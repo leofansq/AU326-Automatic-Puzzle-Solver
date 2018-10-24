@@ -1,6 +1,6 @@
 # Automatic Puzzle Solver
 ## About Hardware ##
-![CyberDIP](/pic/CyberDIP.png)
+![CyberDIP](/qtCyberDIP-master/pic/CyberDIP.png)
 
 CyberDIP driver for windows in C++ 11.
 
