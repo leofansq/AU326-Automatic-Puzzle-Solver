@@ -1,0 +1,9 @@
+/ipch/*
+/x64/*
+/Debug/*
+/Release/*
+/qtCyberDip/GeneratedFiles/*
+/qtCyberDip/*.user
+*.sdf
+*.opensdf
+*.suo
