@@ -48,10 +48,10 @@ git clone https://github.com/LostXine/qtCyberDIP.git
 ```
 git clone https://github.com/LostXine/qtCyberDIP.git
 ```
-* 连接CyberDIP，如有必要则安装CH340 芯片组驱动，驱动文件包含在[CH340](/CH340)文件夹中。
+* 连接CyberDIP，如有必要则安装CH340 芯片组驱动，驱动文件包含在[CH340](/qtCyberDIP-master/CH340)文件夹中。
 * 将 '3rdparty/x64' (默认x64，32位操作系统添加 '3rdprty/x86')加入系统环境变量 'Path' 中(注意不要清空原有内容)
-* 使用VS打开工程文件 [qtCyberDip.sln](/qtCyberDip.sln), 并按照 [stdafx.h](qtCyberDip/stdafx.h) 中的说明继续配置
+* 使用VS打开工程文件 [qtCyberDip.sln](/qtCyberDIP-master/qtCyberDip.sln), 并按照 [stdafx.h](/qtCyberDIP-master/qtCyberDip/stdafx.h) 中的说明继续配置
 
 ## About Project ##
-- All the code for the algorithm is in the [usrGameController.h](/qtCyberDip/usrGameController.h) 和 [usrGameController.cpp](/qtCyberDip/usrGameController.cpp) two files
+- All the code for the algorithm is in the [usrGameController.h](/qtCyberDIP-master/qtCyberDip/usrGameController.h) 和 [usrGameController.cpp](/qtCyberDIP-master/qtCyberDip/usrGameController.cpp) two files
 -  In the process, we have tried several methods.Some of the operable versions  are stored in folder "previous-version"
