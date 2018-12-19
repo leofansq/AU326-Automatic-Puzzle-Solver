@@ -35,7 +35,7 @@ qtCyberDIP contains 4 + 1 parts:
 * Install git for windows
 * Clone this project using script below at git bash:
 ```
-git clone https://github.com/LostXine/qtCyberDIP.git
+git clone https://github.com/leofansq/Automatic-Puzzle-Solver.git
 ```
 * (If necessary)Install Driver for CH340 Chipset after CyberDIP connected. ([Driver](/CH340) is included)
 * Add '3rdparty/x64' (Default, if you are using 32-bit OS, add '3rdparty/x86') into Environment Variable 'Path' (__ATTENTION! NEVER CLEAN 'Path'__, unless you are exactly conscious of the consequence)
@@ -46,7 +46,7 @@ git clone https://github.com/LostXine/qtCyberDIP.git
 * 安装 Qt 与相应版本的 Qt-VS插件
 * 在一个恰当的目录中打开git bash并输入以下命令：
 ```
-git clone https://github.com/LostXine/qtCyberDIP.git
+git clone https://github.com/leofansq/Automatic-Puzzle-Solver.git
 ```
 * 连接CyberDIP，如有必要则安装CH340 芯片组驱动，驱动文件包含在[CH340](/qtCyberDIP-master/CH340)文件夹中。
 * 将 '3rdparty/x64' (默认x64，32位操作系统添加 '3rdprty/x86')加入系统环境变量 'Path' 中(注意不要清空原有内容)
@@ -54,4 +54,7 @@ git clone https://github.com/LostXine/qtCyberDIP.git
 
 ## About Project ##
 - All the code for the algorithm is in the [usrGameController.h](/qtCyberDIP-master/qtCyberDip/usrGameController.h) 和 [usrGameController.cpp](/qtCyberDIP-master/qtCyberDip/usrGameController.cpp) two files
--  In the process, we have tried several methods.Some of the operable versions  are stored in folder "previous-version"
+-  In the process, we have tried several methods.Some of the operable versions  are stored in folder [previous-version](/previous-version)
+
+## Acknowledgement ##
+The source of this project is SJTU digital image processing. The main hardware and software are done by course teachers and teaching assistants. I and the team members only completed the algorithm part of the puzzle implementation. Original project address: https://github.com/LostXine/qtCyberDIP.git
